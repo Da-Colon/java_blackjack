@@ -6,8 +6,8 @@ public class Player {
     playerName = name;
     }
 
-    char[] hand = {'K', '3'};
-    int handTotal = 13;
+    Card[] hand = new Card[2];
+    int handTotal;
     int chips = 1000;
 
 

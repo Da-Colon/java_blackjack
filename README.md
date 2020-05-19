@@ -17,16 +17,5 @@ This section I will try to keep notes on any libraries installs or walkthroughs 
 
 I followed the steps on the docs [JetBrains - javafx](https://www.jetbrains.com/help/idea/javafx.html)
 
-## Process
-
-### Creating initial classes
-
-- First thought is build game without GUI. get the logic built then the GUI.
-- I started by creating initial classes and defining a few variables that I know will be needed in a blackjack game. 
-- psuedocoded a few methods that will be needed in a blackgame.
-
-### Hard coding values
-
-- hard code values for hand. my thought is get the generally game loop built first then build on that the logic for handling the deck and hands.
 
 

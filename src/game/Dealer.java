@@ -1,9 +1,6 @@
 package game;
 
 public class Dealer {
-    char[] hand;
+    Card[] hand = new Card[2];
     int handTotal;
-
-
-
 }

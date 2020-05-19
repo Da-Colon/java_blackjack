@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Objects;
 
 public class Deck {
-
+    Card[] deck = new Card[52];
     private int ace = 0;
     private int king = 10;
     private int jack = 10;
@@ -21,13 +21,10 @@ public class Deck {
 
     int[] values = {ace, king, jack, queen, ten, nine, eight, seven, six, five, four, three, two};
     String[] names = {"Ace", "King", "Jack", "Queen", "Ten", "Nine", "Eight", "Seven", "Six", "Five", "Four", "Three", "Two"};
-    String[] suits = {"spade", "heart", "diamond", "clover"};
+    String[] suits = {"Spade", "Heart", "Diamond", "Clover"};
 
    public Card[] newDeck(){
-       Card[] deck = new Card[52];
        int deckIndex = 0;
-
-
        for(int i = 0; i <= suits.length - 1; i++) {
            for(int j = 0; j <= values.length - 1; j++) {
                Card card = new Card(names[j], suits[i], values[j]);
@@ -35,12 +32,10 @@ public class Deck {
                deckIndex++;
             }
        }
-
        return deck;
-
    }
 
-//    random card draw
+
 //    shuffle deck
 //    multideck?
 
