@@ -1,5 +1,8 @@
 package game;
 
+import javafx.fxml.FXML;
+import javafx.scene.text.Text;
+
 import java.util.Arrays;
 import java.util.Objects;
 import java.util.Random;
@@ -8,8 +11,11 @@ public class Game {
     boolean running = false;
     Random random = new Random();
 
-    public Game(){
-    }
+    @FXML
+    private Text playerHand;
+
+    @FXML
+    private Text dealerHand;
 
     public void GameEngine(){
         running = true;
@@ -25,6 +31,8 @@ public class Game {
 
 //        Game Loop Starts Here
         Card.displayCurrentHand(player.hand, player.handTotal, dealer.hand, dealer.handTotal);
+//        text.setText(Card.displayPlayerHand(player.hand));
+//        Card.displayDealerHand(dealer.hand, dealer.handTotal);
 
 
     }

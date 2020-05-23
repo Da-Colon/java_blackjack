@@ -21,7 +21,7 @@ public class Deck {
 
     int[] values = {ace, king, jack, queen, ten, nine, eight, seven, six, five, four, three, two};
     String[] names = {"Ace", "King", "Jack", "Queen", "Ten", "Nine", "Eight", "Seven", "Six", "Five", "Four", "Three", "Two"};
-    String[] suits = {"Spade", "Heart", "Diamond", "Clover"};
+    String[] suits = {"Spade", "Hearts", "Diamonds", "Clubs"};
 
    public Card[] newDeck(){
        int deckIndex = 0;

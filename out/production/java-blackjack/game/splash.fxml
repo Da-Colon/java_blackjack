@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:controller="game.Controller"
+          gridLinesVisible="true"
+          hgap="5"
+          vgap="5"
+          xmlns:fx="http://javafx.com/fxml">
+    <HBox styleClass="title-container">
+    <Text id="title" styleClass="title" text="Java-BlackJack" textAlignment="CENTER"/>
+    </HBox>
+    <Text id="author" text="Created by: David Colon" />
+
+
+<!--    <Label text="User Name:"-->
+<!--           GridPane.columnIndex="0" GridPane.rowIndex="1"/>-->
+
+<!--    <TextField-->
+<!--            GridPane.columnIndex="1" GridPane.rowIndex="1"/>-->
+
+<!--    <Label text="Password:"-->
+<!--           GridPane.columnIndex="0" GridPane.rowIndex="2"/>-->
+
+<!--    <PasswordField-->
+<!--                   GridPane.columnIndex="1" GridPane.rowIndex="2"/>-->
+
+<!--    <HBox spacing="10" alignment="bottom_right"-->
+<!--          GridPane.columnIndex="1" GridPane.rowIndex="4">-->
+<!--        <Button text="Sign In" />-->
+
+<!--    </HBox>-->
+
+<!--    <Text-->
+<!--          GridPane.columnIndex="1" GridPane.rowIndex="6"/>-->
+
+
+</GridPane>

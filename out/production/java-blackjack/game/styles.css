@@ -1,0 +1,8 @@
+.title{
+    -fx-font-size: 24px;
+    -fx-fill: blue;
+}
+
+.title-container{
+    fx-width: 100%;
+}

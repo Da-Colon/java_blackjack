@@ -11,8 +11,16 @@ public class Card {
         this.value = value;
     }
 
-    public static void displayCurrentHand(Card[] playerHand, int playerHandTotal, Card[] dealerHand, int dealerHandTotal){
+//    public static String displayPlayerHand(Card[] playerHand) {
+//        String hand;
+//        for (Card card : playerHand) {
+//            if (card != null) {
+//                card.name + " of " + card.suit;
+//            }
+//        }
+//    }
 
+    public static void displayCurrentHand(Card[] playerHand, int playerHandTotal, Card[] dealerHand, int dealerHandTotal){
         System.out.println("\n******Dealer's Hand******\n");
 
         for( Card card : dealerHand){
@@ -27,6 +35,7 @@ public class Card {
         System.out.println("\n******Player's Hand******\n");
 
         for( Card card : playerHand){
+            String currentHand;
             if(card != null){
                 System.out.println(card.name + " of " + card.suit);
                 dealerHandTotal += card.value;

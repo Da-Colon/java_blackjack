@@ -7,16 +7,19 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Main extends Application {
+    Stage window;
+    Scene gameScene;
+    Parent root;
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Black Jack");
-        primaryStage.setScene(new Scene(root, 300, 275));
-        primaryStage.show();
-        Game game = new Game();
-        game.GameEngine();
+        window = primaryStage;
+        root = FXMLLoader.load(getClass().getResource("splash.fxml"));
+        window.setTitle("Black Jack");
+        window.setScene(new Scene(root, 640, 480));
+        root.getStylesheets().add(game.Game.class.getResource("styles.css").toExternalForm());
 
+        window.show();
     }
 
 

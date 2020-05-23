@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: rgba(200,200,200,1);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.Controller">
+   <children>
+       <Text id="title" fill="#d71e1e" layoutX="150.0" layoutY="79.0" stroke="#0d0101" styleClass="title" text="Java-BlackJack" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="339.98193359375">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+       <Text id="author" layoutX="490.0" layoutY="453.0" text="Created by: David Colon" />
+      <Button layoutX="247.0" layoutY="198.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="132.0" text="Start Game" />
+      <Button layoutX="247.0" layoutY="277.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="132.0" text="Exit" />
+   </children>
+</Pane>
