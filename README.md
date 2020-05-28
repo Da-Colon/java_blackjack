@@ -13,6 +13,7 @@ This section I will try to keep notes on any libraries installs or walkthroughs 
 - JavaFx SDK version 11.0.2 or later [go to site](https://gluonhq.com/products/javafx/)
 - IntelliJ IDEA (IDE) [go to site](https://www.jetbrains.com/idea/)
 - VSCode (IDE) [go to site](https://code.visualstudio.com/)
+- Gluon SceneBuilder [go to site](https://gluonhq.com/products/scene-builder/)
 
 ### Setting up Intellij with JavaFx
 
